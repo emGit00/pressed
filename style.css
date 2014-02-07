@@ -52,7 +52,6 @@ nav ul li {
 /*	float: left;*/
 	padding-left: 1em;
 	padding-right: 2em;
-    color: #0f8291;
 }
 
 body {
@@ -72,8 +71,25 @@ section > section {
 	line-height: 1.5em;
 }
 
+section.main {
+    float: left;
+    width: 65%;
+}
+
 section > section h1 {
 	font-size: 2em;
+}
+
+aside  {
+    float: right;
+    max-width: 33.5%;
+    margin-left: 1.5%;
+}
+
+.widget {
+    background-color: #b9b9b9;
+    color: #444;
+    padding: .1em 1.5em 1.5em;
 }
 
 footer {
@@ -92,5 +108,9 @@ footer h1 {
 }
 
 footer p {
-	line-height: .5;
+    line-height: .5em;
+}
+
+.clearfix {
+    clear: both;
 }
